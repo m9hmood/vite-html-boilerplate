@@ -23,5 +23,6 @@
   "dependencies": {
     "aos": "^2.3.4",
     "vanilla-lazyload": "^17.6.1"
-  }
+  },
+  "license": "MIT"
 }
