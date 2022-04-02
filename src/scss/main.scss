@@ -1,0 +1,21 @@
+// abstracts
+// @import "./abstracts/variables";
+// @import "./abstracts/functions";
+// @import "./abstracts/mixins";
+
+// base 
+@import "./base/reset";
+// @import "./base/typography";
+
+
+// Vendors
+@import "./vendors/aos";
+
+// components 
+// @import "./components/buttons";
+
+// layout 
+// @import "./layout/footer";
+
+// pages 
+@import "./pages/home";
