@@ -35,12 +35,12 @@ Navigate into your project directory and start your production files
 
 A quick look at what's also in this project
 
-- [Vue3](https://vitejs.dev/) for fatest development environment.
-- [Handlebars](https://handlebarsjs.com/) for semantic templates.
-- autoprefixer & sass for making writing css easier :)
-- [AOS](https://github.com/michalsnik/aos/) for animate scroll on your website
-- [vanilla-lazyload](https://github.com/verlok/vanilla-lazyload) for adding lazy-loading on images
-- The 7–1: SCSS architecture for large projects 
+- [Vite](https://vitejs.dev/) for fatest development environment ✨.
+- [Handlebars](https://handlebarsjs.com/) for semantic templates 🎨.
+- autoprefixer & sass for making writing css easier 👨‍💻.
+- [AOS](https://github.com/michalsnik/aos/) for animate scroll on your website 📺.
+- [vanilla-lazyload](https://github.com/verlok/vanilla-lazyload) for adding lazy-loading on images 🏞.
+- The 7–1: SCSS architecture for large projects 🗂
 
 #### Support this project
 
