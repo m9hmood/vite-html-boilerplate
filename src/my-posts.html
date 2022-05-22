@@ -1,0 +1,65 @@
+{{#> layout }}
+{{> navbar}}
+    <div class="block-header block-header--has-breadcrumb block-header--has-title">
+        <div class="container">
+            <div class="block-header__body">
+                <nav class="breadcrumb block-header__breadcrumb" aria-label="breadcrumb">
+                    <ol class="breadcrumb__list">
+                        <li class="breadcrumb__spaceship-safe-area" role="presentation"></li>
+                        <li class="breadcrumb__item breadcrumb__item--parent breadcrumb__item--first">
+                            <a href="index.html" class="breadcrumb__item-link">Home</a>
+                        </li>
+                        <li class="breadcrumb__item breadcrumb__item--parent">
+                            <a href="" class="breadcrumb__item-link">Breadcrumb</a>
+                        </li>
+                        <li class="breadcrumb__item breadcrumb__item--current breadcrumb__item--last" aria-current="page">
+                            <span class="breadcrumb__item-link">Current Page</span>
+                        </li>
+                        <li class="breadcrumb__title-safe-area" role="presentation"
+                            style="--block-header-title-width:129.445px;"></li>
+                    </ol>
+                </nav>
+                <h1 class="block-header__title">My Posts</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="block">
+        <div class="container container--max--xl">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="wishlist">
+                    <table class="wishlist__table">
+                        <thead class="wishlist__head">
+                            <tr class="wishlist__row wishlist__row--head">
+                                <th class="wishlist__column wishlist__column--head wishlist__column--image">Image</th>
+                                <th class="wishlist__column wishlist__column--head wishlist__column--product">Ad</th>
+                                <th class="wishlist__column wishlist__column--body wishlist__column--button"></th>
+                            </tr>
+                        </thead>
+                        <tbody class="wishlist__body">
+                            {{#repeat 10}}
+                            <tr class="wishlist__row wishlist__row--body">
+                                <td class="wishlist__column wishlist__column--body wishlist__column--image">
+                                    <div class="image image--type--product">
+                                        <a href="product-full.html" class="image__body">
+                                            <img class="image__tag" src="/images/products/product-1-160x160.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </td>
+                                <td class="wishlist__column wishlist__column--body wishlist__column--product">
+                                    <div class="wishlist__product-name">
+                                        <a href="">Brandix Spark Plug Kit ASR-400</a>
+                                    </div>
+                                </td>
+                                <td class="wishlist__column wishlist__column--body wishlist__column--remove">
+                                    <a href="/promote-post.html" class="btn btn-sm btn-primary">Promote</a> 
+                                </td>
+                            </tr>
+                            {{/repeat}}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+{{/layout}}
