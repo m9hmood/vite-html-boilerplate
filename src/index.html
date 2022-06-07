@@ -1,7 +1,15 @@
 {{#> layout }}
-  {{> navbar}} 
-  {{> home/finder}}
-  {{> home/ads }}
-  {{> home/sponsored }} 
-  {{> home/recent }}
+<div class="welcome-message">
+  {{> welcome-message }}
+</div>
+
+
+<div class="lazy-loading-section">
+  <h2 data-aos="fade-down" data-aos-duration="700" >
+    Lazy loading is so nice 😉
+  </h2>
+  <img  data-aos="zoom-in-up" data-aos-duration="900"  alt="A lazy image" class="lazy" data-src="/img/img.jpeg" />
+</div>
+
+  
 {{/layout}}

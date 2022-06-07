@@ -10,15 +10,6 @@ export default {
     plugins: [
         handlebars({
             partialDirectory: resolve(__dirname, 'src/partials'),
-            helpers: {
-                repeat: (n, block) => {
-                    var accum = '';
-                    for (var i = 0; i < n; ++i)
-                        accum += block.fn(i);
-                    return accum;
-
-                }
-            }
         }),
         removeConsole(),
     ],
